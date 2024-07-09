@@ -1,0 +1,19 @@
+GET https://persons-mq6p.onrender.com/api/persons
+
+###
+
+GET https://persons-mq6p.onrender.com/api/persons/1
+
+###
+
+POST https://persons-mq6p.onrender.com/api/persons
+content-type: application/json
+
+{
+	"name": "Alex Robinson",
+	"number": "12-23-8657463"
+}
+
+###
+
+DELETE https://persons-mq6p.onrender.com/api/persons/2
