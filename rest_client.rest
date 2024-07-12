@@ -2,7 +2,7 @@ GET http://localhost:3001/api/persons
 
 ###
 
-GET http://localhost:3001/api/persons/1
+GET http://localhost:3001/api/persons/668e3b08123668e5085c2823
 
 ###
 
@@ -10,10 +10,20 @@ POST http://localhost:3001/api/persons
 content-type: application/json
 
 {
-	"name": "Alex Robinson",
+	"name": "Alex2",
 	"number": "12-23-8657463"
 }
 
 ###
 
-DELETE http://localhost:3001/api/persons/2
+PUT http://localhost:3001/api/persons/668f6e8f4e19807067ab86e8
+content-type: application/json
+
+{
+	"name": "tksjdfhkjs",
+	"number": "12345678"
+}
+
+###
+
+DELETE http://localhost:3001/api/persons/668fa848b0c669b2f80a8549
